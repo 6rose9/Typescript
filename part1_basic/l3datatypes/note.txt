@@ -1,0 +1,13 @@
+typescript init
+---------------
+tsc --init
+
+uncomment
+----------
+"rootDir" : "./src"
+"outDir" : "./dist",
+"removeComments"  : "true",
+"noEmitOnError" : "true" // if there is error in typescript, no emit on error in javascript
+
+=> build
+tsc -w (this will output js file to dist)
