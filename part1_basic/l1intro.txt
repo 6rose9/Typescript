@@ -1,0 +1,64 @@
+Typescript
+-----------
+
+- a programming language developed by Microsoft
+
+- advantages -> (i) type safety ( statically typed feature)
+                (ii) error detection
+
+1. Early Error detection
+    Typescript cateches errors at compile time. This help prevent runtime errors and make your code mode reliable.
+
+2. Improved Readablity & Maintainability
+   Easier to read and understand. Other developed can quickly understand as well.
+
+Javascript small-scale applications
+Typescript medium-large applications
+
+Typescript can be used for Client-Side as Reactjs & Angularjs ...
+Typescript can be used for Server-Side with Nodejs
+
+TypeScript VS JavaScript
+------------------------
+
+=> TypeScript
+    i. static programming language
+    ii. compiled (TypeScript Compiler = tsc)
+    iii. compilation errors
+
+=> JavaScript
+    i. dynamic programming language
+    ii. interpreted 
+    iii. runtime errors
+  
+
+  Syntax
+  ------
+
+  JavaScript
+  let score = 50;
+
+  Typescript
+
+  let score:number = 50;
+
+  => offical site
+
+ https://www.typescriptlang.org/
+
+=======================================================================================
+
+ Install TypeScript Globally
+ ---------------------------
+
+ Install (Ubuntu, Window, MAC)
+
+ https://www.typescriptlang.org/download/
+
+npm install -g typescript
+
+Install TypeScript Locally
+
+npm init 
+
+npm install typescript --save --dev
