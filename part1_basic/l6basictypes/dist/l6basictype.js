@@ -69,7 +69,77 @@ let lunch = (amount, servicefee) => {
         return amount + parseInt(servicefee);
     }
 };
-console.log(lunch(3000, 500));
-console.log(lunch(3000, "200"));
-console.log(lunch(3000, "100 usd"));
-console.log(lunch(3000, "usd 50"));
+const desktop = {
+    brandname: "MSI",
+    price: 800,
+    cpu: "Intel Core I9",
+    coolingfun: false,
+};
+const laptop = {
+    brandname: "HP",
+    price: 600,
+    cpu: "Intel Core I7",
+    coolingfun: false,
+};
+laptop.price = 650;
+const newperson = {
+    uid: 1001,
+    name: "Manung Maung",
+    age: 30,
+    department: "IT",
+};
+function printpersoninfo(obj) {
+    console.log(`ID is ${obj.uid}, Name is ${obj.name}, Age is ${obj.age}, Department is ${obj.department}`);
+}
+const nextjsclass = {
+    id: 1002,
+    title: "Nextjs Batch1",
+    price: 800000,
+    type: "Zoom Class",
+    content() {
+    },
+    cloudprovider() {
+    },
+    paymentgateway() {
+    }
+};
+function greet(name, age = 18) {
+    return `Hello, my name is ${name} and I am ${age} years old`;
+}
+function greeting(name, age) {
+    if (age !== undefined) {
+        return `Hello, my name is ${name} and I am ${age} years old`;
+    }
+    return `Hello, my name is ${name}`;
+}
+let sayhi;
+sayhi = (msg) => {
+    return msg;
+};
+let sayhello;
+sayhello = (msg, name, content = "What sare your doign") => {
+    return `Hello ${msg}!, ${name}. ${content}`;
+};
+const vipcu = {
+    name: "U Hla",
+    phone: "09123456789",
+    address: {
+        street: "123 main street",
+        city: "Mandalay",
+        country: "Myanmar",
+    }
+};
+function employer(owner) {
+    return owner.fullname;
+}
+function lawyer({ fullname }) {
+    return fullname;
+}
+const Animal = {
+    name: "Panda",
+    age: 7
+};
+let petone = {
+    age: 10,
+    name: "Cute Cat",
+};
