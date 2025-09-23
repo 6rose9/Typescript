@@ -1,0 +1,9 @@
+npm init -y
+
+npm install typescript --save-dev
+
+npx tsc --init
+
+create src > index.tsc
+
+tsc -w
